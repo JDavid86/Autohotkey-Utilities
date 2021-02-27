@@ -4,8 +4,6 @@
 ; UTILIDADES: Detecta el Titulo y Class Code de la ventana Presionando CTRL + D
 #Persistent
 #SingleInstance Force
-;return
-;!r::Reload
 
 ; SIMPLE OSD: On-screen display:
 Gui +LastFound +AlwaysOnTop -Caption +ToolWindow  ; +ToolWindow avoids a taskbar button and an alt-tab menu item.
@@ -34,14 +32,3 @@ return
 MButton::
 Esc::
 ExitApp
-
-;------------------------------------------------------------------------------
-; Detectar Titulo y Class Code
-Sleep 200
-Run C:\_ARCHIVOS\_ Automatizaciones\Automatizados Hechos\F_Utilidades_AHK\Detector_Titulo_Y_Class.ahk
-Sleep 600
-Send ^d
-Sleep 6200
-Send {ESC}
-Sleep 400
-;------------------------------------------------------------------------------
