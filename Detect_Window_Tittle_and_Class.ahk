@@ -1,5 +1,5 @@
 ; ###########################################
-; #####	    DETECTAR TITULO Y CLASS		#####
+; #####	    DETECTAR TITULO Y CLASS	#####
 ; ###########################################
 ; UTILIDADES: Detecta el Titulo y Class Code de la ventana Presionando CTRL + D
 #Persistent
